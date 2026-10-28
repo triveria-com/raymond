@@ -1,5 +1,9 @@
 # raymond [![Build Status](https://secure.travis-ci.org/aymerick/raymond.svg?branch=master)](http://travis-ci.org/aymerick/raymond) [![GoDoc](https://godoc.org/github.com/aymerick/raymond?status.svg)](http://godoc.org/github.com/aymerick/raymond)
 
+> **Triveria's fork.** This is `github.com/triveria-com/raymond/v2`, maintained by Triveria for the Triveria wallet:
+> `mailgun/raymond`, itself a fork of `aymerick/raymond`, was archived in January 2025, and no maintained Go
+> Handlebars engine exists. Releases start at `v2.1.0`; earlier tags are mailgun's, with the old module path.
+
 Handlebars for [golang](https://golang.org) with the same features as [handlebars.js](http://handlebarsjs.com) `3.0`.
 
 The full API documentation is available here: <http://godoc.org/github.com/aymerick/raymond>.
@@ -66,7 +70,7 @@ package main
 import (
     "fmt"
 
-    "github.com/mailgun/raymond/v2"
+    "github.com/triveria-com/raymond/v2"
 )
 
 func main() {
@@ -116,7 +120,7 @@ package main
 import (
     "fmt"
 
-    "github.com/mailgun/raymond/v2"
+    "github.com/triveria-com/raymond/v2"
 )
 
 func main() {
@@ -200,7 +204,7 @@ package main
 import (
   "fmt"
 
-  "github.com/mailgun/raymond/v2"
+  "github.com/triveria-com/raymond/v2"
 )
 
 func main() {
@@ -1315,7 +1319,7 @@ package main
 import (
     "fmt"
 
-    "github.com/mailgun/raymond/v2/lexer"
+    "github.com/triveria-com/raymond/v2/lexer"
 )
 
 func main() {
@@ -1357,8 +1361,8 @@ package main
 import (
     "fmt"
 
-    "github.com/mailgun/raymond/v2/ast"
-    "github.com/mailgun/raymond/v2/parser"
+    "github.com/triveria-com/raymond/v2/ast"
+    "github.com/triveria-com/raymond/v2/parser"
 )
 
 fu  nc main() {
